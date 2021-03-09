@@ -1,0 +1,27 @@
+li {
+  cursor: pointer;
+  padding: 5px 5px 10px;
+
+  img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.20);
+  }
+
+  .movie-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .movie-information {
+    width: 20%;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 0;
+  }
+}
