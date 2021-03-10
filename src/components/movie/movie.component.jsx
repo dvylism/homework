@@ -8,7 +8,7 @@ export const Movie = (props) => {
             <img src="/images/movie.svg" alt="movie-icon"/>
                 <b>{props.movie.title}</b>
             </div>
-            <div className="movie-information"><small>{props.movie.vote_average} Rating, {props.movie.release_date.splice(0,4)}</small></div>
+            <div className="movie-information"><small>{props.movie.vote_average} Rating, {props.movie.release_date.slice(0,4)}</small></div>
         </li>
     )
 };
