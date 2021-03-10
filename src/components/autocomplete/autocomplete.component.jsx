@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {SearchBox} from "../search-box/search-box.component";
 import {MovieList} from "../movie-list/movie-list.component";
 import './autocomplete.styles.scss';
-import _ from "lodash";
-import {debounce} from "lodash";
 
 class Autocomplete extends Component {
 
